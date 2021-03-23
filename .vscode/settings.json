@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "python.pythonPath": "/Users/kojo/.local/share/virtualenvs/ecomm-fjd-r6A6/bin/python",
+  "python.sortImports.args": ["--profile=black"],
+  "python.formatting.provider": "black",
+  "python,formatting.blackArgs": ["--line-length-119"],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  // Django Extention
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-text",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirement"
+  }
+}
